@@ -22,11 +22,11 @@ $(document).ready(function(){
 	}
 
 	//In case that only one of them was saved we need to load the default of the other when refrshing the page
-	if ($("#dashboard").hasClass("active")===false && $("#visits").hasClass("active")===false && $("#members").hasClass("active")===false  && $("settings").hasClass("active")===false ) {
+	if ($("#dashboard").hasClass("active")===false && $("#visits").hasClass("active")===false && $("#members").hasClass("active")===false  && $("#settings").hasClass("active")===false ) {
 	    $("#dashboard").addClass("active");
 	}
 
-	if ($("#hourly-btn").hasClass("active")===false && $("#daily-btn").hasClass("active")===false && $("#weekly-btn").hasClass("active")===false  && $("monthly-btn").hasClass("active")===false ) {
+	if ($("#hourly-btn").hasClass("active")===false && $("#daily-btn").hasClass("active")===false && $("#weekly-btn").hasClass("active")===false  && $("#monthly-btn").hasClass("active")===false ) {
 	    $("#weekly-btn").addClass("active");
 	}
 
